@@ -13,6 +13,12 @@ class AppTheme {
       textTheme: AppTextTheme.applyTo(theme.textTheme),
       primaryTextTheme: AppTextTheme.applyTo(theme.primaryTextTheme),
       accentTextTheme: AppTextTheme.applyTo(theme.accentTextTheme),
+      splashColor: theme.accentColor.withOpacity(0.12),
+      highlightColor: theme.accentColor.withOpacity(0.12),
+      buttonTheme: theme.buttonTheme.copyWith(
+        splashColor: theme.accentColor.withOpacity(0.12),
+        highlightColor: theme.accentColor.withOpacity(0.12),
+      ),
     );
   }
 }

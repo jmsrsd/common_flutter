@@ -14,6 +14,7 @@ dependencies:
   cached_network_image:
   cupertino_icons:
   faker:
+  flutter_keyboard_visibility:
   google_fonts:
   http:
 
